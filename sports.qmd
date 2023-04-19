@@ -1,0 +1,63 @@
+---
+title: "Lab 7: Sports"
+---
+
+The questions throughout this Part (questions 9-20) apply solely to the `teams` dataset.
+
+#### Question 9
+
+What are the dimensions of your `teams` dataset?
+
+#### Question 10
+
+Using your `teams` dataset, form and save a training and testing set using the guidance provided in the notes (reserve at least 20% for the test set).
+
+#### Model One: Simple Linear Model
+
+#### Question 11
+
+Create a plot of the relationship between a predictor and a response variable of your choice, selecting a response that would be useful to predict and a predictor that you expect will have a strong relationship with the response. State why you chose each of your variables, then describe the relationship in the plot in terms of its shape (linear or non-linear), strength, and direction (generally positive or negative).
+
+#### Question 12
+
+Using the training data, fit a simple linear model using this pair of variables. Write out the equation for the linear model (using the estimated coefficients) and report your training $R^2$.
+
+#### Question 13
+
+What is the average value of your predictor variable and the average value of your response variable? Using your model, what would you predict the value of the response to be for a new observation that takes as its predictor value the average predictor value from th training data?
+
+#### Question 14
+
+Calculate and report your testing $R^2$ and compare it to your training $R^2$ in one or two sentences.
+
+#### Model Two: "Everything but the kitchen sink"
+
+#### Question 15
+
+Using the same train-test approach, fit a second linear model to predict your response variable which satisfies the following:
+  - includes *all* other variables in the data set as explanatory variables
+  - at least two non-linear transformations
+  - at least one polynomial term (up to degree 2), involving a variable you expect is non-linearly associated with your response variable.
+  
+#### Question 16
+
+Report your training and testing $R^2$s. Compare the two values and explain the reasoning behind the relationship you notice.
+
+#### Model Three: Your best choice
+  
+#### Question 17
+
+Using the same train-test approach, fit a linear model that you think best predicts your response variable. You may use any number of variables you wish and employ non-linear transformations and polynomials if you would like, too. Report your training $R^2$.
+
+#### Question 18
+
+Report your testing $R^2$ and compare it to your training $R^2$ in one or two sentences.
+
+#### Question 19
+
+Reviewing all three of your models, what general guidance would you give to someone who seeks to build predictive models for the sport you chose?
+
+#### Question 20
+
+Revisit the definition of causation. If your predictive model has a positive coefficient between one of the predictors and the response, is that evidence that if you increase that predictor variable for a given observation, the response variable will increase? That is, can you (or a sports management team) use this model to draw causal conclusions? Why or why not? 
+
